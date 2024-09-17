@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+      <head>
+         <!--this is a comment-->
+          <title>cart Quantity</title>
+          <style>
+            p{
+              font-family: Arial;
+              font-size: 20px;
+              margin-bottom: 15px;
+              color: rgb(141, 209, 231);
+            }
+            button{
+              background-color: yellow;
+              color: rgb(192, 39, 39);
+              padding: 15px 15px 15px 15px;
+              cursor: pointer;
+              border-radius: 10px;
+              border: none;
+            }
+         
+        
+            button:active{
+              background-color: rgb(171, 204, 106);
+              transition: 0.1s;
+            }
+          </style>
+
+           
+        
+        
+      </head>
+      <body>
+        <p>Cart Quantity</p>
+        <button onclick="
+          console.log(`Cart quantity: ${cartQuantity}`);
+          
+          
+          
+          ">show Quantity</button>
+
+        <button onclick="
+          
+          cartQuantity += 1;
+          console.log(`cartQuantity: ${cartQuantity}`);  
+            
+            
+        ">Add to cart</button>
+
+        <button onclick="
+          // cartQuantity = cartQuantity +2 ;
+           cartQuantity += 2;
+           console.log(`cartQuantity: ${cartQuantity}`);  
+        
+        
+        "
+
+        >+2</button>
+        <button onclick="
+          
+            cartQuantity += 3;
+            console.log(`cartQuantity: ${cartQuantity}`);  
+          
+        
+        "
+        >+3</button>
+
+        <button onclick="
+        cartQuantity = 0;
+        console.log('cart was reset. ')   
+        console.log(`cartQuantity: ${cartQuantity}`);      
+        
+        ">Reset the cart</button>
+        
+          <script>
+            let cartQuantity = 0;
+
+
+           
+            
+          
+          </script>
+      </body>
+</html>
