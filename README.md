@@ -26,8 +26,6 @@ I started building this collection by following tutorials but ultimately decided
 # 📚 Future Plans
 Although I did not complete the full tutorial series, I am focused on applying what I’ve learned to build more independent and self-driven projects in the future. The repository will evolve as I gain more experience and refine my coding abilities.
 
-# 🔧 Installation and Usage
-To run these projects locally:
 
 
 # 💡 Learnings and Reflections
