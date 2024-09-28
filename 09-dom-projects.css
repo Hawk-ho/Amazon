@@ -1,0 +1,19 @@
+.js-subscribe-button{
+  padding-left:15px ;
+  padding-right:15px ;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  font-family: Arial;
+  border: none;
+  border-radius: 15px;
+  color: white;
+  background-color: black;
+  cursor: pointer;
+
+
+}
+p{
+  font-size: 25px;
+  font-family: arial;
+  color: rgb(143, 180, 94);
+}
